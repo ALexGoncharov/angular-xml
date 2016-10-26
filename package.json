@@ -45,5 +45,8 @@
   "gitHead": "818239745e3953f67761b27a17ac7c43a23ee690",
   "bugs": {
     "url": "https://github.com/johngeorgewright/angular-xml/issues"
+  },
+  "dependencies": {
+    "x2js": "git+https://github.com/abdmob/x2js.git"
   }
 }

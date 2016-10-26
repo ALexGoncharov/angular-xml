@@ -1,9 +1,7 @@
-if (!X2JS) {
-  throw new Error('You\'re required to include the X2JS library to use the xml module.');
-}
-
-(function(ng, X2JS) {
+(function(ng) {
   'use strict';
+
+  var X2JS = require('x2js');
 
   function responseIsXml(response) {
     var contentType = response.headers('content-type');
@@ -54,4 +52,4 @@ if (!X2JS) {
       .value('X2JS', X2JS);
   }
 
-}(angular, X2JS));
+}(angular));
